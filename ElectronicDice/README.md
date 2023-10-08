@@ -2,7 +2,7 @@
 
 Add picture of result here
 
-##About the project
+## About the project
 This is a small personal project I made as a gift for a friend who plays D&D.
 The goal was originally to create it with ATTiny and bit-shift registers as I wanted
 more experience with different components and make it a compact product. But, after not
