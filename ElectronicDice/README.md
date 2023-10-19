@@ -12,4 +12,7 @@ finding the components I wanted, I ended up trying to create it on the Arduino N
 * Has some light animation to imitate the dice rolling
 * Function based design to be easily expanded or changed
 
+## Wire Diagram of Project
+<img width="597" alt="Skjermbilde 2023-10-19 212329" src="https://github.com/Jawny-E/MiniArduino/assets/94108006/427684be-fb3e-4035-9e72-9959f49fa675">
+
 ## Use this project for yourself
