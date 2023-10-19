@@ -1,6 +1,5 @@
 # Dice Roller on two 7-segment displays
 
-Add picture of result here
 
 ## About the project
 This is a small personal project I made as a gift for a friend who plays D&D.
@@ -14,5 +13,9 @@ finding the components I wanted, I ended up trying to create it on the Arduino N
 
 ## Wire Diagram of Project
 <img width="597" alt="Skjermbilde 2023-10-19 212329" src="https://github.com/Jawny-E/MiniArduino/assets/94108006/427684be-fb3e-4035-9e72-9959f49fa675">
+
+## Project Prototype
+![20231019_212527](https://github.com/Jawny-E/MiniArduino/assets/94108006/70ea31c4-ab10-4fcb-9d3b-34751d1955e2)
+
 
 ## Use this project for yourself
