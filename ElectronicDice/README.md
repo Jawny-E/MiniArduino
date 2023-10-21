@@ -1,5 +1,6 @@
 # Dice Roller on two 7-segment displays
 
+For yall nerds out there who might also need some soldering practice. The finished product consists of an Arduino Nano, two Common Anode 7-segment displays, a button to initialise rolling, a potentiometer to choose dice and a whole load of resistors and wires! 
 
 ## About the project
 This is a small personal project I made as a gift for a friend who plays D&D.
