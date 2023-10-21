@@ -1,5 +1,5 @@
 //Pins for the two different segments { a b c d e f g . )
-int seg1Pins[] = {2, 3, 4, 5, 6, 7, 8, 9, 0,}; 
+int seg1Pins[] = {2, 3, 4, 5, 6, 7, 8, 9}; 
 int seg2Pins[] = {10, 11, 12, 13, A0, A1, A2, A3};
 
 int button = A5;
@@ -48,7 +48,7 @@ void selectDigit(int dice){
       d1 = 10;
       d2 = random(1,7);
       //Serial.println(dice);
-      //Serial.print("Resulatet er: " + String(d1) +' '+ String(d2) + '\n');
+      Serial.print("Resulatet er: " + String(d1) +' '+ String(d2) + '\n');
       displayDigit(10, seg1Pins);
       displayDigit(10, seg2Pins);
       delay(400);
@@ -68,7 +68,7 @@ void selectDigit(int dice){
       d1 = num / 10;
       d2 = num % 10;
       //Serial.println(dice);
-      //Serial.print("Resulatet er: " + String(d1) +' '+ String(d2) + '\n');
+      Serial.print("Resulatet er: " + String(d1) +' '+ String(d2) + '\n');
       displayDigit(10, seg1Pins);
       displayDigit(10, seg2Pins);
       delay(300);
@@ -88,7 +88,7 @@ void selectDigit(int dice){
       d2 = num % 10;
       //Serial.println(num);
       //Serial.println(dice);
-      //Serial.print("Resulatet er: " + String(d1) +' '+ String(d2) + '\n');
+      Serial.print("Resulatet er: " + String(d1) +' '+ String(d2) + '\n');
       displayDigit(10, seg1Pins);
       displayDigit(10, seg2Pins);
       delay(300);
@@ -124,7 +124,15 @@ void randomSequence(){
   roll dependent on the state of the potentiometer
 */
 int potentiMeter(){
-  int meas = map(analogRead(potMeter), 0, 1023, 0, 3);
+  int meas = 0;
+  int value = analogRead(potMeter);
+  if (value > 700){
+    meas = 2;
+  }
+  else if (value >350) {
+    meas = 1;
+  }
+  Serial.println(meas);
   return meas;
 }
 
