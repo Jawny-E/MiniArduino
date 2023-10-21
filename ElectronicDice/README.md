@@ -11,7 +11,11 @@ finding the components I wanted, I ended up trying to create it on the Arduino N
 * The function is to roll different dice(d6, d20 and d100) dependent on the state of a potentiometer
 * Has some light animation to imitate the dice rolling
 * Function based design to be easily expanded or changed :D
-
+## Code
+The full Arduino Code can be found in this directiory, but here are some comments:
+- The code is not made to be perfect! It uses delays and has repeating segments, this is mostly because I found it readable when I made it
+- The code has some functions that are dependent on each other, yeah this is unfortunate af. I hope however that the names and descriptions are enough to figure out what does what. 
+- If you want to use the project the main "changeables" are at the top of the code
 ## Wire Diagram of Project
 <img width="597" alt="Skjermbilde 2023-10-19 212329" src="https://github.com/Jawny-E/MiniArduino/assets/94108006/427684be-fb3e-4035-9e72-9959f49fa675">
 
