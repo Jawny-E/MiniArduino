@@ -16,6 +16,8 @@ The full Arduino Code can be found in this directiory, but here are some comment
 - The code is not made to be perfect! It uses delays and has repeating segments, this is mostly because I found it readable when I made it
 - The code has some functions that are dependent on each other, yeah this is unfortunate af. I hope however that the names and descriptions are enough to figure out what does what. 
 - If you want to use the project the main "changeables" are at the top of the code
+- The code still includes some serial.print statements where I found them most useful. For now it prints the switch-case state and then the result of the dice roll (each number separate). This should make it fairly easy to find any wiring issues with the displays.
+- If you want to use Common Cathode displays instead of Common Anode -> invert all the numbers in the segCode matrix
 ## Wire Diagram of Project
 <img width="597" alt="Skjermbilde 2023-10-19 212329" src="https://github.com/Jawny-E/MiniArduino/assets/94108006/427684be-fb3e-4035-9e72-9959f49fa675">
 
@@ -27,4 +29,4 @@ The full Arduino Code can be found in this directiory, but here are some comment
 
 
 ## Use this project for yourself
-Feel free to steal or change anything about it! I personally found it to be quite a cool hobby project
+Feel free to steal or change anything about it (appreciate credit tho)! I personally found it to be quite a cool hobby project
